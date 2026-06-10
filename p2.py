@@ -1,10 +1,39 @@
 import pika
 from mutagen import File
 from logs import ecrire_log
+import json
 
 NOM_MODULE = "P2"
 RABBITMQ_HOST = "localhost"
 QUEUE_NAME = "file_chansons"
+QUEUE_METADATA = "file_metadata"
+
+import json
+
+QUEUE_METADATA = "file_metadata"
+
+def envoyer_metadata(metadata):
+
+    connection = pika.BlockingConnection(
+        pika.ConnectionParameters(host=RABBITMQ_HOST)
+    )
+
+    channel = connection.channel()
+
+    channel.queue_declare(queue=QUEUE_METADATA)
+
+    channel.basic_publish(
+        exchange='',
+        routing_key=QUEUE_METADATA,
+        body=json.dumps(metadata)
+    )
+
+    ecrire_log(
+        NOM_MODULE,
+        f"Metadata envoyée à RabbitMQ : {metadata['titre']}"
+    )
+
+    connection.close()
 
 def extraire_metadata(chemin_mp3):
     try:
@@ -17,23 +46,20 @@ def extraire_metadata(chemin_mp3):
             )
             return
 
-        duree = round(audio.info.length)
-
         metadata = {
+            "chemin": chemin_mp3,
             "titre": audio.get("title", ["Inconnu"])[0],
             "artiste": audio.get("artist", ["Inconnu"])[0],
             "album": audio.get("album", ["Inconnu"])[0],
-            "duree": duree
+            "duree": round(audio.info.length)
         }
 
         ecrire_log(
             NOM_MODULE,
-            f"Metadata extraite : "
-            f"Titre={metadata['titre']}, "
-            f"Artiste={metadata['artiste']}, "
-            f"Album={metadata['album']}, "
-            f"Duree={metadata['duree']}s"
+            f"Metadata extraite : {metadata}"
         )
+
+        envoyer_metadata(metadata)
 
     except Exception as e:
         ecrire_log(
