@@ -8,7 +8,7 @@ RABBITMQ_HOST = 'localhost'
 QUEUE_NAME = 'file_chansons'
 
 DOSSIER_A_ECOUTER = "./repertoire"
-TEMPS_ATTENTE = 300  # 5 minutes
+TEMPS_ATTENTE = 10  # 5 minutes
 
 def recuperer_mp3(dossier: str) -> dict:
     mp3_trouves = {}
