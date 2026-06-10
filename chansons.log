@@ -1,0 +1,30 @@
+[2026-06-10 11:32:32] Démarrage de l'application via main.py.
+[2026-06-10 11:32:32] Initialisation : 4 chanson(s) existante(s).
+[2026-06-10 11:32:42] Scan de routine : Aucune nouvelle chanson détectée.
+[2026-06-10 11:32:52] Scan de routine : Aucune nouvelle chanson détectée.
+[2026-06-10 11:33:02] Scan de routine : Aucune nouvelle chanson détectée.
+[2026-06-10 11:33:12] Reçu 1 nouvelle(s) chanson(s) !
+[2026-06-10 11:33:12] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
+[2026-06-10 11:33:18] Arrêt de l'application (Ctrl+C).
+[2026-06-10 11:38:12] [MAIN] Démarrage de l'application via main.py.
+[2026-06-10 11:38:12] [MAIN] Initialisation : 5 chanson(s) déjà présente(s).
+[2026-06-10 11:38:12] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/9-Tsy tara.mp3
+[2026-06-10 11:38:12] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/6-Fantatrao ve - Reko.mp3
+[2026-06-10 11:38:12] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
+[2026-06-10 11:38:12] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
+[2026-06-10 11:38:12] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
+[2026-06-10 11:39:03] [MAIN] Arrêt de l'application (Ctrl+C).
+[2026-06-10 11:39:46] [MAIN] Démarrage de l'application via main.py.
+[2026-06-10 11:39:46] [MAIN] Initialisation : 5 chanson(s) déjà présente(s).
+[2026-06-10 11:39:46] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/9-Tsy tara.mp3
+[2026-06-10 11:39:46] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/6-Fantatrao ve - Reko.mp3
+[2026-06-10 11:39:46] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
+[2026-06-10 11:39:46] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
+[2026-06-10 11:39:46] [MAIN] -> Chanson existante : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
+[2026-06-10 11:39:56] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-10 11:40:06] [P1] Attention : 1 chanson(s) ont été supprimée(s) !
+[2026-06-10 11:40:06] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/6-Fantatrao ve - Reko.mp3
+[2026-06-10 11:40:16] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-10 11:40:26] [P1] Reçu 1 nouvelle(s) chanson(s) !
+[2026-06-10 11:40:26] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/6-Fantatrao ve - Reko.mp3
+[2026-06-10 11:40:29] [MAIN] Arrêt de l'application (Ctrl+C).
