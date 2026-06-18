@@ -84,11 +84,11 @@ def get_mp3():
 @app.post("/api/mp3/confirm")
 def confirmer():
 
-    body = request.get_json()
-
-    chemin = body["chemin"]
-
     try:
+
+        body = request.get_json()
+
+        chemin = body["chemin"]
 
         if os.path.exists(
             chemin
@@ -98,38 +98,35 @@ def confirmer():
                 chemin
             )
 
-            global metadata_stockees
-
-            metadata_stockees = [
-                m
-                for m in metadata_stockees
-                if m["chemin"] != chemin
-            ]
-
             ecrire_log(
                 NOM_MODULE,
-                f"Fichier supprimé : {chemin}"
+                f"Fichier supprimé avec succès : {chemin}"
             )
 
             return {
                 "success": True
             }
 
+        ecrire_log(
+            NOM_MODULE,
+            f"Suppression ignorée : fichier introuvable -> {chemin}"
+        )
+
         return {
-            "success": False
+            "success": False,
+            "message": "Fichier introuvable"
         }
 
     except Exception as e:
 
         ecrire_log(
             NOM_MODULE,
-            str(e)
+            f"Erreur suppression : {e}"
         )
 
         return {
             "success": False
         }, 500
-
 
 def main():
 

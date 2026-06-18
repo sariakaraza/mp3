@@ -1,64 +1,69 @@
-[2026-06-18 19:56:59] [P1] Démarrage du programme P1.
-[2026-06-18 19:57:05] [P2] Démarrage du consommateur RabbitMQ.
-[2026-06-18 19:57:05] [P2] En attente de messages sur la file 'file_chansons'.
-[2026-06-18 19:57:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:57:10] [P3] RabbitMQ en écoute
-[2026-06-18 19:57:10] [P3] RabbitMQ en écoute
-[2026-06-18 19:57:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:57:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:57:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:57:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:57:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:58:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:58:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:58:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:58:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:58:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:58:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:59:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:59:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:59:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:59:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:59:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:59:59] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-18 19:59:59] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
-[2026-06-18 19:59:59] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
-[2026-06-18 19:59:59] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
-[2026-06-18 19:59:59] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3', 'titre': 'ANAO NY ANAO', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 257}
-[2026-06-18 19:59:59] [P2] Metadata envoyée à RabbitMQ : ANAO NY ANAO
-[2026-06-18 19:59:59] [P3] Metadata reçue : ANAO NY ANAO
-[2026-06-18 20:00:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:00:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:00:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:00:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:00:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:00:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:01:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:01:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:01:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:01:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:01:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:01:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:02:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:02:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:02:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:02:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:02:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:02:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:03:09] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-18 20:03:09] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
-[2026-06-18 20:03:09] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
-[2026-06-18 20:03:09] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
-[2026-06-18 20:03:09] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3', 'titre': 'TSARA KOKOA', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 226}
-[2026-06-18 20:03:09] [P2] Metadata envoyée à RabbitMQ : TSARA KOKOA
-[2026-06-18 20:03:09] [P3] Metadata reçue : TSARA KOKOA
-[2026-06-18 20:03:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:03:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:03:35] [P3] Fichier supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
-[2026-06-18 20:03:39] [P1] Attention : 1 chanson(s) ont été supprimée(s) !
-[2026-06-18 20:03:39] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
-[2026-06-18 20:03:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:03:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:04:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:04:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 20:04:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:08:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:08:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:08:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:08:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:08:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:09:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:09:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:09:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:09:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:09:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:09:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:10:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:10:18] [P3] RabbitMQ en écoute
+[2026-06-18 20:10:19] [P3] RabbitMQ en écoute
+[2026-06-18 20:10:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:10:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:10:39] [P1] Attention : 3 chanson(s) ont été supprimée(s) !
+[2026-06-18 20:10:39] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:10:39] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
+[2026-06-18 20:10:39] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3
+[2026-06-18 20:10:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:10:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:11:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:11:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:11:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:11:39] [P1] Attention : 1 chanson(s) ont été supprimée(s) !
+[2026-06-18 20:11:39] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
+[2026-06-18 20:11:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:11:59] [P1] Reçu 1 nouvelle(s) chanson(s) !
+[2026-06-18 20:11:59] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3
+[2026-06-18 20:11:59] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3
+[2026-06-18 20:11:59] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3
+[2026-06-18 20:11:59] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3', 'titre': 'Avereno', 'artiste': 'Reko - Fy & His Band', 'album': 'Andao', 'duree': 255}
+[2026-06-18 20:11:59] [P2] Metadata envoyée à RabbitMQ : Avereno
+[2026-06-18 20:11:59] [P3] Metadata reçue : Avereno
+[2026-06-18 20:12:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:12:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:12:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:12:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:12:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:12:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:13:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:13:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:13:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:13:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:13:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:13:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:14:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:14:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:14:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:14:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:14:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:14:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:15:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:15:19] [P1] Reçu 1 nouvelle(s) chanson(s) !
+[2026-06-18 20:15:19] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:19] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:19] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:19] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3', 'titre': 'NY FANJAKANY', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 245}
+[2026-06-18 20:15:19] [P2] Metadata envoyée à RabbitMQ : NY FANJAKANY
+[2026-06-18 20:15:19] [P3] Metadata reçue : NY FANJAKANY
+[2026-06-18 20:15:26] [P3] Fichier supprimé avec succès : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:29] [P3] Suppression ignorée : fichier introuvable -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:29] [P1] Attention : 1 chanson(s) ont été supprimée(s) !
+[2026-06-18 20:15:29] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:32] [P3] Suppression ignorée : fichier introuvable -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:35] [P3] Suppression ignorée : fichier introuvable -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
+[2026-06-18 20:15:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:15:44] [P1] Arrêt de P1.
