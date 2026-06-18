@@ -1,5 +1,7 @@
 import pika
 import json
+import time
+
 from logs import ecrire_log
 
 NOM_MODULE = "P3"
@@ -8,26 +10,50 @@ RABBITMQ_HOST = "localhost"
 QUEUE_METADATA = "file_metadata"
 
 
+def envoyer_api(metadata):
+
+    ecrire_log(
+        NOM_MODULE,
+        "Début appel API (simulation)"
+    )
+
+    time.sleep(2)
+
+    print("\n===== DONNEES ENVOYEES =====")
+
+    print(json.dumps(
+        metadata,
+        indent=4,
+        ensure_ascii=False
+    ))
+
+    print("===========================\n")
+
+    ecrire_log(
+        NOM_MODULE,
+        "API simulée : succès"
+    )
+
+    return True
+
+
 def traiter_metadata(metadata):
 
     ecrire_log(
         NOM_MODULE,
-        f"Metadata reçue : "
-        f"Titre={metadata['titre']}, "
-        f"Artiste={metadata['artiste']}, "
-        f"Album={metadata['album']}, "
-        f"Duree={metadata['duree']}s"
+        f"Metadata reçue : {metadata['titre']}"
     )
 
-    print("\n===== METADATA RECUE =====")
+    succes = envoyer_api(
+        metadata
+    )
 
-    print("Chemin :", metadata["chemin"])
-    print("Titre :", metadata["titre"])
-    print("Artiste :", metadata["artiste"])
-    print("Album :", metadata["album"])
-    print("Durée :", metadata["duree"])
+    if succes:
 
-    print("==========================\n")
+        ecrire_log(
+            NOM_MODULE,
+            "Traitement terminé."
+        )
 
 
 def callback(ch, method, properties, body):
@@ -46,7 +72,7 @@ def callback(ch, method, properties, body):
 
         ecrire_log(
             NOM_MODULE,
-            f"Erreur traitement : {e}"
+            f"Erreur : {e}"
         )
 
 
@@ -54,7 +80,7 @@ def main():
 
     ecrire_log(
         NOM_MODULE,
-        "Démarrage du programme P3."
+        "Démarrage P3."
     )
 
     connection = pika.BlockingConnection(
@@ -69,15 +95,15 @@ def main():
         queue=QUEUE_METADATA
     )
 
-    ecrire_log(
-        NOM_MODULE,
-        "En attente des metadata..."
-    )
-
     channel.basic_consume(
         queue=QUEUE_METADATA,
         on_message_callback=callback,
         auto_ack=True
+    )
+
+    ecrire_log(
+        NOM_MODULE,
+        "En attente des metadata..."
     )
 
     channel.start_consuming()
