@@ -1,260 +1,64 @@
-[2026-06-10 15:53:09] [P1] Démarrage du programme P1.
-[2026-06-10 15:53:30] [P1] Arrêt de P1.
-[2026-06-10 15:53:32] [P1] Démarrage du programme P1.
-[2026-06-10 15:53:42] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:53:52] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-10 15:53:52] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-10 15:53:52] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-10 15:54:02] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:54:12] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:54:19] [P2] Démarrage du consommateur RabbitMQ.
-[2026-06-10 15:54:19] [P2] En attente de messages sur la file 'file_chansons'.
-[2026-06-10 15:54:19] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-10 15:54:19] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3', 'titre': 'ROTOROTO', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 259}
-[2026-06-10 15:54:19] [P2] Metadata envoyée à RabbitMQ : ROTOROTO
-[2026-06-10 15:54:22] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:54:32] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:54:42] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:54:52] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:55:02] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:55:12] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:55:22] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-10 15:55:22] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
-[2026-06-10 15:55:22] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
-[2026-06-10 15:55:22] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
-[2026-06-10 15:55:22] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3', 'titre': 'NY FANJAKANY', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 245}
-[2026-06-10 15:55:22] [P2] Metadata envoyée à RabbitMQ : NY FANJAKANY
-[2026-06-10 15:55:32] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-10 15:55:33] [P1] Arrêt de P1.
-[2026-06-18 19:16:27] [P1] Démarrage du programme P1.
-[2026-06-18 19:16:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:16:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:16:57] [P1] Attention : 2 chanson(s) ont été supprimée(s) !
-[2026-06-18 19:16:57] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
-[2026-06-18 19:16:57] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:17:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:17:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:17:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:17:37] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-18 19:17:37] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:17:37] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:17:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:17:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:18:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:18:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:18:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:18:37] [P2] Démarrage du consommateur RabbitMQ.
-[2026-06-18 19:18:37] [P2] En attente de messages sur la file 'file_chansons'.
-[2026-06-18 19:18:37] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:18:37] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3', 'titre': 'ROTOROTO', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 259}
-[2026-06-18 19:18:37] [P2] Metadata envoyée à RabbitMQ : ROTOROTO
-[2026-06-18 19:18:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:18:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:18:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:19:07] [P1] Attention : 1 chanson(s) ont été supprimée(s) !
-[2026-06-18 19:19:07] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:19:17] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-18 19:19:17] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:19:17] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:19:17] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3
-[2026-06-18 19:19:17] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/1-Rotoroto - Reko.mp3', 'titre': 'ROTOROTO', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 259}
-[2026-06-18 19:19:17] [P2] Metadata envoyée à RabbitMQ : ROTOROTO
-[2026-06-18 19:19:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:19:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:19:47] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-18 19:19:47] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
-[2026-06-18 19:19:47] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
-[2026-06-18 19:19:47] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3
-[2026-06-18 19:19:47] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/2-Ny fanjakany - Reko.mp3', 'titre': 'NY FANJAKANY', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 245}
-[2026-06-18 19:19:47] [P2] Metadata envoyée à RabbitMQ : NY FANJAKANY
-[2026-06-18 19:19:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:20:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:20:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:20:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:20:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:20:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:20:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:21:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:21:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:21:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:21:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:21:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:21:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:22:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:22:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:22:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:22:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:22:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:22:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:23:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:23:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:23:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:23:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:23:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:23:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:24:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:24:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:24:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:24:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:24:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:24:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:25:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:25:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:25:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:25:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:25:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:25:57] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:26:07] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:26:17] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:26:27] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:26:37] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:26:47] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:26:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:27:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:27:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:27:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:27:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:27:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:27:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:28:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:28:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:28:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:28:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:28:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:28:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:29:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:29:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:29:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:29:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:29:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:29:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:30:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:30:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:30:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:30:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:30:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:30:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:31:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:31:15] [P3] Démarrage du programme P3.
-[2026-06-18 19:31:15] [P3] En attente des metadata...
-[2026-06-18 19:31:15] [P3] Metadata reçue : Titre=ROTOROTO, Artiste=REKO BAND, Album=FANTATRAO VE?, Duree=259s
-[2026-06-18 19:31:15] [P3] Metadata reçue : Titre=ROTOROTO, Artiste=REKO BAND, Album=FANTATRAO VE?, Duree=259s
-[2026-06-18 19:31:15] [P3] Metadata reçue : Titre=NY FANJAKANY, Artiste=REKO BAND, Album=FANTATRAO VE?, Duree=245s
-[2026-06-18 19:31:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:31:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:31:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:31:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:31:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:32:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:32:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:32:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:32:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:32:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:32:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:33:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:33:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:33:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:33:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:33:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:33:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:34:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:34:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:34:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:34:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:34:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:34:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:35:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:35:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:35:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:35:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:35:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:35:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:36:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:36:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:36:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:36:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:36:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:36:58] [P3] Démarrage P3.
-[2026-06-18 19:36:58] [P3] En attente des metadata...
-[2026-06-18 19:36:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:37:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:37:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:37:28] [P1] Reçu 1 nouvelle(s) chanson(s) !
-[2026-06-18 19:37:28] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3
-[2026-06-18 19:37:28] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3
-[2026-06-18 19:37:28] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3
-[2026-06-18 19:37:28] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/Avereno.mp3', 'titre': 'Avereno', 'artiste': 'Reko - Fy & His Band', 'album': 'Andao', 'duree': 255}
-[2026-06-18 19:37:28] [P2] Metadata envoyée à RabbitMQ : Avereno
-[2026-06-18 19:37:28] [P3] Metadata reçue : Avereno
-[2026-06-18 19:37:28] [P3] Début appel API (simulation)
-[2026-06-18 19:37:30] [P3] API simulée : succès
-[2026-06-18 19:37:30] [P3] Traitement terminé.
-[2026-06-18 19:37:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:37:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:37:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:38:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:38:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:38:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:38:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:38:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:38:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:39:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:39:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:39:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:39:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:39:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:39:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:40:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:40:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:40:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:40:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:40:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:40:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:41:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:41:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:41:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:41:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:41:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:41:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:42:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:42:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:42:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:42:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:42:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:42:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:43:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:43:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:43:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:43:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:43:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:43:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:44:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:44:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:44:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:44:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:44:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:44:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:45:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:45:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:45:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:45:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:45:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:45:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:46:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:46:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:46:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:46:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:46:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:46:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:47:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:47:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:47:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:47:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:47:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:47:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:48:08] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:48:18] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:48:28] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:48:38] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:48:48] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
-[2026-06-18 19:48:58] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:56:59] [P1] Démarrage du programme P1.
+[2026-06-18 19:57:05] [P2] Démarrage du consommateur RabbitMQ.
+[2026-06-18 19:57:05] [P2] En attente de messages sur la file 'file_chansons'.
+[2026-06-18 19:57:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:57:10] [P3] RabbitMQ en écoute
+[2026-06-18 19:57:10] [P3] RabbitMQ en écoute
+[2026-06-18 19:57:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:57:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:57:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:57:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:57:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:58:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:58:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:58:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:58:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:58:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:58:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:59:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:59:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:59:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:59:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:59:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 19:59:59] [P1] Reçu 1 nouvelle(s) chanson(s) !
+[2026-06-18 19:59:59] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
+[2026-06-18 19:59:59] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
+[2026-06-18 19:59:59] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3
+[2026-06-18 19:59:59] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/4-Anao ny anao - Reko.mp3', 'titre': 'ANAO NY ANAO', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 257}
+[2026-06-18 19:59:59] [P2] Metadata envoyée à RabbitMQ : ANAO NY ANAO
+[2026-06-18 19:59:59] [P3] Metadata reçue : ANAO NY ANAO
+[2026-06-18 20:00:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:00:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:00:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:00:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:00:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:00:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:01:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:01:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:01:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:01:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:01:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:01:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:02:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:02:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:02:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:02:39] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:02:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:02:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:03:09] [P1] Reçu 1 nouvelle(s) chanson(s) !
+[2026-06-18 20:03:09] [P1] -> Nouveau MP3 reçu : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
+[2026-06-18 20:03:09] [P1] Message envoyé à RabbitMQ -> /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
+[2026-06-18 20:03:09] [P2] Message reçu depuis RabbitMQ : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
+[2026-06-18 20:03:09] [P2] Metadata extraite : {'chemin': '/home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3', 'titre': 'TSARA KOKOA', 'artiste': 'REKO BAND', 'album': 'FANTATRAO VE?', 'duree': 226}
+[2026-06-18 20:03:09] [P2] Metadata envoyée à RabbitMQ : TSARA KOKOA
+[2026-06-18 20:03:09] [P3] Metadata reçue : TSARA KOKOA
+[2026-06-18 20:03:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:03:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:03:35] [P3] Fichier supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
+[2026-06-18 20:03:39] [P1] Attention : 1 chanson(s) ont été supprimée(s) !
+[2026-06-18 20:03:39] [P1] -> MP3 supprimé : /home/sariaka/Documents/ITU/L3/S6/Projet-Juin/mp3/repertoire/5-Tsara kokoa- Reko Band.mp3
+[2026-06-18 20:03:49] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:03:59] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:04:09] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:04:19] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
+[2026-06-18 20:04:29] [P1] Scan de routine : Aucun changement détecté (ni ajout, ni suppression).
