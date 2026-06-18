@@ -1,59 +1,23 @@
 import pika
 import json
-import time
+import threading
+import os
+
+from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 from logs import ecrire_log
+
 
 NOM_MODULE = "P3"
 
 RABBITMQ_HOST = "localhost"
 QUEUE_METADATA = "file_metadata"
 
+app = Flask(__name__)
+CORS(app)
 
-def envoyer_api(metadata):
-
-    ecrire_log(
-        NOM_MODULE,
-        "Début appel API (simulation)"
-    )
-
-    time.sleep(2)
-
-    print("\n===== DONNEES ENVOYEES =====")
-
-    print(json.dumps(
-        metadata,
-        indent=4,
-        ensure_ascii=False
-    ))
-
-    print("===========================\n")
-
-    ecrire_log(
-        NOM_MODULE,
-        "API simulée : succès"
-    )
-
-    return True
-
-
-def traiter_metadata(metadata):
-
-    ecrire_log(
-        NOM_MODULE,
-        f"Metadata reçue : {metadata['titre']}"
-    )
-
-    succes = envoyer_api(
-        metadata
-    )
-
-    if succes:
-
-        ecrire_log(
-            NOM_MODULE,
-            "Traitement terminé."
-        )
+metadata_stockees = []
 
 
 def callback(ch, method, properties, body):
@@ -64,24 +28,24 @@ def callback(ch, method, properties, body):
             body.decode()
         )
 
-        traiter_metadata(
+        metadata_stockees.append(
             metadata
+        )
+
+        ecrire_log(
+            NOM_MODULE,
+            f"Metadata reçue : {metadata['titre']}"
         )
 
     except Exception as e:
 
         ecrire_log(
             NOM_MODULE,
-            f"Erreur : {e}"
+            f"Erreur RabbitMQ : {e}"
         )
 
 
-def main():
-
-    ecrire_log(
-        NOM_MODULE,
-        "Démarrage P3."
-    )
+def ecouter_rabbit():
 
     connection = pika.BlockingConnection(
         pika.ConnectionParameters(
@@ -103,10 +67,83 @@ def main():
 
     ecrire_log(
         NOM_MODULE,
-        "En attente des metadata..."
+        "RabbitMQ en écoute"
     )
 
     channel.start_consuming()
+
+
+@app.get("/api/mp3")
+def get_mp3():
+
+    return jsonify(
+        metadata_stockees
+    )
+
+
+@app.post("/api/mp3/confirm")
+def confirmer():
+
+    body = request.get_json()
+
+    chemin = body["chemin"]
+
+    try:
+
+        if os.path.exists(
+            chemin
+        ):
+
+            os.remove(
+                chemin
+            )
+
+            global metadata_stockees
+
+            metadata_stockees = [
+                m
+                for m in metadata_stockees
+                if m["chemin"] != chemin
+            ]
+
+            ecrire_log(
+                NOM_MODULE,
+                f"Fichier supprimé : {chemin}"
+            )
+
+            return {
+                "success": True
+            }
+
+        return {
+            "success": False
+        }
+
+    except Exception as e:
+
+        ecrire_log(
+            NOM_MODULE,
+            str(e)
+        )
+
+        return {
+            "success": False
+        }, 500
+
+
+def main():
+
+    thread = threading.Thread(
+        target=ecouter_rabbit,
+        daemon=True
+    )
+
+    thread.start()
+
+    app.run(
+        port=5000,
+        debug=True
+    )
 
 
 if __name__ == "__main__":
